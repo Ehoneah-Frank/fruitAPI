@@ -29,8 +29,8 @@ fruitApp.use(express.json());
 fruitApp.use(fruitRouter);
 
 
-fruitApp.listen(4000, () =>{
-    console.log("App is running on port 4000");
+fruitApp.listen(7070, () =>{
+    console.log("App is running on port 7070");
 });
 
 // SIAP6AiMXSzWGv25
