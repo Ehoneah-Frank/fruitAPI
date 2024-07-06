@@ -1,0 +1,22 @@
+{
+  "name": "fruitapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@reis/mongoose-to-json": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-oas-generator": "^1.0.46",
+    "mongoose": "^8.4.5",
+    "nodemon": "^3.1.4"
+  }
+}
