@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { postFruits, getFruits, getOneFruit, patchFruit, deleteFruit } from "../controllers/fruit_controller.js";
 
+// Create router
 const fruitRouter = Router();
 
 fruitRouter.post("/fruits", postFruits);

@@ -27,8 +27,10 @@ fruitApp.use(express.json());
 
 // use routes
 fruitApp.use(fruitRouter);
+expressOasGenerator.handleRequests();
+fruitApp.use((req, res) => res.redirect('/api-docs/'));
 
-
+// start the server
 fruitApp.listen(7070, () =>{
     console.log("App is running on port 7070");
 });
