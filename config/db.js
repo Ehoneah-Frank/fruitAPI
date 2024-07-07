@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import 'dotenv/config';
 
-const connectionString = process.env.MONGO_URl;
+const connectionString = process.env.MONGO_URL;
 
 
 const dbConnection = () =>{
